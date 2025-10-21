@@ -9,12 +9,21 @@
 
 /* this block targets the <body> */
 body {
-    background-color:aquamarine ; 
-    font-family: 'Courier New', Courier, monospace;   
+    background-color:rgb(216, 255, 242) ; 
+    font-family: UnifrakturMaguntia, 'Courier New', Courier, monospace;   
     font-size: 18px;
+    padding-left: 5px;
+    text-align: center;
+    background-image: url(https://media.tenor.com/ldDoV7iwmkgAAAAj/kurukuru-kururing.gif)  ; 
+    
 }
+
 
 /* GROUP SELECTOR*/
 h1,h2,h3,h4,h5,h6 {
     margin-bottom: 0.5em; /* em unit scales with font size*/
+    text-decoration: underline;
+    text-emphasis-color: rgb(0, 0, 0);
+    text-emphasis-style: triangle;
 }
+
